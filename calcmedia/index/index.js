@@ -17,6 +17,11 @@ function criaInputs() {
 
 function calcularMedia() {
 
+    for(var i = 0; i < numInputs; i++) {
+
+        htmlFinal += "<input class='inputMedia'> <br><br>";
+    
+    }
     
 
     var inputs = document.getElementsByClassName("inputMedia");
